@@ -45,9 +45,6 @@ function App() {
         ></input>
       </div>
       <div className="cryptoDisplay">{displayCoins}</div>
-      <a href="#" className="top">
-        Top &#8593;
-      </a>
     </div>
   );
 }
