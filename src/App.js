@@ -2,7 +2,6 @@ import "./App.css";
 import { useEffect, useState } from "react";
 import * as Axios from "axios";
 import Coin from "./components/Coin";
-
 function App() {
   const [listOfCoins, setListOfCoins] = useState([]);
   const [searchWord, setSearchWord] = useState("");
@@ -34,7 +33,6 @@ function App() {
       />
     );
   });
-
   return (
     <div className="App">
       <div className="cryptoHeader">
